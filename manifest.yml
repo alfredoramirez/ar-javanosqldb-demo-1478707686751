@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ar-javanosqldb-demo
+  host: ar-javanosqldb-demo
+  disk_quota: 1024M
+  services:
+  - ar-javanosqldb-demo-cloudantNoSQLDB
